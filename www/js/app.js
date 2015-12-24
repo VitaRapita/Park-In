@@ -61,7 +61,7 @@ App.module.controller('MainCtrl', function ($scope, $ionicSideMenuDelegate) {
 App.module.controller('ListViewCtrl', function ($scope) {
   // Add some useful staff later
   $scope.markers = App.cars.concat(App.bicycles);
-  var GMaps = google.maps;
+  /*var GMaps = google.maps;
   var map = new GMaps.Map(document.getElementById("map"));
   var userCoordinates = {
     lat: App.defaults.lat,
@@ -78,11 +78,34 @@ App.module.controller('ListViewCtrl', function ($scope) {
         return userPosition;
         consollog();
       };
-  };
+  };*/
 
   });
 
 App.module.controller('MapViewCtrl', function ($scope, $ionicLoading) {
+
+    // Create an array of styles.
+  var styles = [
+    {
+      stylers: [
+        { hue: "#FFD39B" },
+        { saturation: -30 }
+    ]
+    },{
+      featureType: "road",
+      elementType: "geometry",
+      stylers: [
+        { lightness: 20 },
+        { visibility: "on" }
+      ]
+    },{
+      featureType: "road",
+      elementType: "labels",
+      stylers: [
+        { visibility: "off" }
+      ]
+    }
+  ];
 
   var GMaps = google.maps;
   var userCoordinates = {
@@ -95,8 +118,18 @@ App.module.controller('MapViewCtrl', function ($scope, $ionicLoading) {
   var mapOptions = {
     center: userPosition,
     zoom: 12,
-    mapTypeId: GMaps.MapTypeId.ROADMAP
+    mapTypeControlOptions: {
+      mapTypeIds: [GMaps.MapTypeId.ROADMAP, 'map_style']
+    }
+    //mapTypeId: GMaps.MapTypeId.ROADMAP
   };
+
+  // Create a new StyledMapType object, passing it the array of styles,
+  // as well as the name to be displayed on the map type control.
+  var styledMap = new GMaps.StyledMapType(styles,
+    {name: "Styled Map"});
+
+  
 
   var map = new GMaps.Map(document.getElementById("map"), mapOptions);
 
@@ -118,6 +151,8 @@ App.module.controller('MapViewCtrl', function ($scope, $ionicLoading) {
   });
 
   $scope.map = map;
+  map.mapTypes.set('map_style', styledMap);
+  map.setMapTypeId('map_style');
   //$scope.markers = [];
   //$scope.markers = App.cars.concat(App.bicycles);
   placeParkings();

@@ -1,7 +1,6 @@
 #map {
-  top: 4% !important;
-  height: 96%;
-  touch-action: auto;
+  top: 0%;
+  height: 100%;
 }
 
 .home-content {
@@ -34,11 +33,11 @@
 }
 
 .item-input-inset.has-header{
-  background-color: #A9A9A9 !important;
+  background-color: #8B8386 !important;
 }
 
 .has-subheader.has-search {
-  top: 98px;
+  top: 120px !important;
 }
 
 input.controls {
