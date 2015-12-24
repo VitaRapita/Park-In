@@ -1,0 +1,58 @@
+#map {
+  top: 4% !important;
+  height: 96%;
+  touch-action: auto;
+}
+
+.home-content {
+  color: #ffffff;
+  text-align: center;
+  background: url("../images/tricycle.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  text-shadow: .6em .8em .8em rgba(0,0,0,.8);
+}
+
+.home-content h1 {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 4.5em;
+  line-height: 1;
+  margin: 2em 0 .5em;
+}
+
+.home-content p {
+  font-weight: 500;
+  font-size: 2em;
+  line-height: 1.5em;
+  color:  #FFFAFA;
+}
+
+.item a {
+  text-decoration: none;
+  color: #800000;
+}
+
+.item-input-inset.has-header{
+  background-color: #A9A9A9 !important;
+}
+
+.has-subheader.has-search {
+  top: 98px;
+}
+
+input.controls {
+  width: 100%;
+}
+
+@media screen and (orientation: landscape) {
+  .home-content h1 {
+    margin-top: .5em;
+  }
+}
+
+/* Override ionic styles */
+.pane .scroll-content,
+.menu .scroll-content {
+  overflow-y: auto;
+}
