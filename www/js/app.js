@@ -382,16 +382,16 @@ App.markers = [
 { 
     "type": 'bicycle',
     "title": ' Вул.Коперника 2',
-    "lat": '49.8112045',
-    "lng": '24.1403104',
+    "lat": ' 49.839471',
+    "lng": ' 24.02851716',
     "countPlaces": 4,
     "mark": true
   },
 { 
     "type": 'bicycle',
     "title": 'Вул.Коперника 17',
-    "lat": '49.8389998',
-    "lng": '23.8825592',
+    "lat": ' 49.8379191',
+    "lng": ' 24.02579218',
     "countPlaces": 12,
     "mark": true
   },
@@ -566,8 +566,8 @@ App.markers = [
 { 
     "type": 'bicycle',
     "title": 'Вул. Коперника 40',
-    "lat": '49.8112325',
-    "lng": '24.1414747',
+    "lat": ' 49.83625146',
+    "lng": ' 24.02244478',
     "countPlaces": 6,
     "mark": true
   },
@@ -1172,6 +1172,175 @@ App.markers = [
             "lng": '24.06849595',
             "countPlaces": 52,
             "mark": true, 
-        }
+        },
+        { 
+    "type": 'car',
+    "title": 'k',
+    "lat": '49.8364586',
+    "lng": '24.0319841',
+    "countPlaces": 8,
+    "mark": true
+  },
+{ 
+    "type": 'car',
+    "title": 'k',
+    "lat": '49.8364586',
+    "lng": '24.0319841',
+    "countPlaces": 8,
+    "mark": true
+  },
+{ 
+    "type": 'car',
+    "title": ' пл.Липнева',
+    "lat": ' 49.8346471',
+    "lng": ' 24.00243402',
+    "countPlaces": 40,
+    "mark": true
+  },
+{ 
+    "type": 'car',
+    "title": ' вул.Княгині Ольги',
+    "lat": ' 49.80926181',
+    "lng": ' 23.99954187',
+    "countPlaces": 101,
+    "mark": true
+  },
+{ 
+    "type": 'car',
+    "title": ' вул.Кастелівка, 42',
+    "lat": ' 49.82825255',
+    "lng": ' 24.01111901',
+    "countPlaces": 19,
+    "mark": true
+  },
+{ 
+    "type": 'car',
+    "title": ' вул.Стрийська, 104',
+    "lat": ' 49.80729132',
+    "lng": ' 24.01846826',
+    "countPlaces": 104,
+    "mark": true
+  },
+{ 
+    "type": 'car',
+    "title": ' вул.Княгині Ольги, 112',
+    "lat": ' 49.80824126',
+    "lng": ' 23.99879318',
+    "countPlaces": 100,
+    "mark": true
+  },
+{ 
+    "type": 'car',
+    "title": ' вул.Вололодимира Великого, 2',
+    "lat": ' 49.80865532',
+    "lng": ' 24.01819736',
+    "countPlaces": 50,
+    "mark": true
+  },
+{ 
+    "type": 'car',
+    "title": ' вул.Бойківська',
+    "lat": ' 49.8232083',
+    "lng": ' 24.01287317',
+    "countPlaces": 40,
+    "mark": true
+  },
+{ 
+    "type": 'car',
+    "title": ' вул.Наукова, 7',
+    "lat": ' 49.80264302',
+    "lng": ' 23.99953274',
+    "countPlaces": 21,
+    "mark": true
+  },
+{ 
+    "type": 'car',
+    "title": ' вул.Академіка А.Сахарова, 45',
+    "lat": ' 49.82883564',
+    "lng": ' 24.01201621',
+    "countPlaces": 20,
+    "mark": true
+  },
+{ 
+    "type": 'car',
+    "title": ' вул.Княгині Ольги, 5-в',
+    "lat": ' 49.81874343',
+    "lng": ' 24.00272564',
+    "countPlaces": 52,
+    "mark": true
+  },
+{ 
+    "type": 'car',
+    "title": ' вул.Кульпарківська, 95',
+    "lat": ' 49.816853',
+    "lng": ' 23.99119',
+    "countPlaces": 10,
+    "mark": true
+  },
+{ 
+    "type": 'car',
+    "title": ' вул.Наукова, 2',
+    "lat": ' 49.802839',
+    "lng": ' 24.01030898',
+    "countPlaces": 17,
+    "mark": true
+  },
+{ 
+    "type": 'car',
+    "title": ' вул.Джерельна – вул.Крехівська',
+    "lat": ' 49.84758587',
+    "lng": ' 24.02029216',
+    "countPlaces": 60,
+    "mark": true
+  },
+{ 
+    "type": 'car',
+    "title": ' просп. В`ячеслава Чорновола 65',
+    "lat": ' 49.85904451',
+    "lng": ' 24.01979327',
+    "countPlaces": 28,
+    "mark": true
+  },
+{ 
+    "type": 'car',
+    "title": ' вул.І.Миколайчука',
+    "lat": ' 49.87408915',
+    "lng": ' 24.04084325',
+    "countPlaces": 30,
+    "mark": true
+  },
+{ 
+    "type": 'car',
+    "title": ' вул.Чигиринська, 31',
+    "lat": ' 49.86703757',
+    "lng": ' 24.04947781',
+    "countPlaces": 32,
+    "mark": true
+  },
+{ 
+    "type": 'car',
+    "title": ' вул.І.Миколайчука, 1',
+    "lat": ' 49.86850198',
+    "lng": ' 24.0436247',
+    "countPlaces": 34,
+    "mark": true
+  },
+{ 
+    "type": 'car',
+    "title": ' вул.І.Величковського, 58',
+    "lat": ' 49.87529224',
+    "lng": ' 23.93479943',
+    "countPlaces": 60,
+    "mark": true
+  },
+{ 
+    "type": 'car',
+    "title": ' вул.І.Величковського, 2',
+    "lat": '49.87776848',
+    "lng": '23.93866879',
+    "countPlaces": 51,
+    "mark": true
+  }
+
     ]
   ];
