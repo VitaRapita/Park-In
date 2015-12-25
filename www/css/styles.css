@@ -44,6 +44,10 @@ input.controls {
   width: 100%;
 }
 
+.padding h2, h3, h5 {
+  color: #800000;
+}
+
 @media screen and (orientation: landscape) {
   .home-content h1 {
     margin-top: .5em;
